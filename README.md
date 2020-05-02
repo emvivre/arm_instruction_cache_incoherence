@@ -1,4 +1,4 @@
-This project modifies an operation code, to produce an incoherence of the cache instruction and the external memory. A branch opcode as been modify to detect whether the cache instruction has been flushed or not. This project is for educational purpose.
+This project modifies an operation code, to produce an incoherence of the CPU cache instruction regarding the content of the external memory. A branch opcode as been modify to detect whether the cache instruction has been flushed or not. This project is for educational purpose.
 
 In a standard ARM implementation the cache instruction is not automatically flushed whether the memory has been modify. This produce a kind of disynchronization between the content of the memory and the cache instruction.
 
